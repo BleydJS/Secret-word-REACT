@@ -1,0 +1,28 @@
+body,html {
+    height: 100%;   /* isso define a tela inteira em 100% de uso*/
+}
+
+body {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient( 0deg, rgb(12,36,66) 0%, rgb(79,116,146) 100%);     /* feito no photoshop e so copiei e colei*/
+     color: aliceblue;                                                               /* cor da font do body*/
+}
+      
+button {
+    background: #1646a0;                /* fundo do botao*/
+    color: #fff;                       /* cor da letra*/
+    padding: 0 45px;                     /* tamanho/espaço lateral do botao*/
+    border: 2px solid #fff;            /* traçado da borda */
+    border-radius: 25px;                /* arredondamento da borda */
+    height: 50px;                       /* tamanho/espaço VERTICAL do botao*/
+    text-transform: uppercase;          /* letras de dentro do botão em maiusculo */
+    font-size: 1.2em;                   /* tamanho da font */
+    cursor: pointer;                    /* cursor indica que é um botão "maozinha" IMPORTANTE TER */ 
+    transition: 0.4s;                   /* transição do botão para uma cor mais escura de preferencia de durção x */
+}
+
+button:hover {
+    background-color: #0923af;       /* aqui se escolhe a cor da transição acima */
+}
