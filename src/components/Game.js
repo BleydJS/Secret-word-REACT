@@ -34,7 +34,7 @@ const Game = ({verifyLetter,pickedWord,pickedCategory,letters,guessedLetters,wro
         )))}
        </div>
         <div className="lettersContainer">
-          <p>Tente advinhas uma letra da palavra:</p>
+          <p>Tente advinhar uma letra da palavra:</p>
           <form onSubmit={handleSubmit}>
             <input type="text" name="letter" maxLength="1" required onChange={(e) => setLetter(e.target.value)}
             value={letter}

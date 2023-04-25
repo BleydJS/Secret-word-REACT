@@ -1,3 +1,5 @@
+<p>Obs: Ainda em desenvolvimento, breve terá atualizações e responsividade para aparelhos moveis...</p>
+
 # Getting Started with Create React App
 
 this project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
